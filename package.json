@@ -81,7 +81,8 @@
         "version": "oclif-dev readme && git add README.md",
         "prepack": "ts-node ./scripts/prepack.ts",
         "postpack": "rm -f oclif.manifest.json",
-        "docs:start": "docify serve docs"
+        "docs:start": "docify serve docs",
+        "build": "tsc"
     },
     "types": "lib/index.d.ts"
 }
